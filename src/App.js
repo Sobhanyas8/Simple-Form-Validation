@@ -1,8 +1,9 @@
+import Form from "./Component/Form";
 
 function App() {
   return (
-    <div className="App">
-      Form Validation
+    <div className="h-screen bg-gradient-to-r from-cyan-500 to-blue-500 flex justify-center items-center" >
+    <Form />
     </div>
   );
 }
